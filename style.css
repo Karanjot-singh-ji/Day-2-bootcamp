@@ -1,0 +1,178 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card{
+    width: 500px;
+    margin: 30px auto;
+    border: 2px solid lightgray;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px lightgray;
+}
+.pic img{
+    width: 100%;
+    border-radius: 15px;
+    position: relative;
+    margin-bottom: -10px;
+}
+.tag1{
+    background-color: black;
+    color: white;
+    width: 68px;
+    padding: 4px 2px;
+    opacity: 50%;
+    position: absolute;
+    top:0;
+    margin: 50px 10px;
+    font-size: 15px;
+    border-radius: 3px;
+}
+.tag2{
+    background-color: white;
+    opacity: 80%;
+    position: absolute;
+    right: 0;
+    top: 314px;
+    right: 540px;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 3px;
+    
+}
+.tag3{
+    background-color: #266fef;
+    color: white;
+    width: max-content;
+    position: absolute;
+    top: 315px;
+    padding: 1px 8px;
+}
+.ad{
+    border-top: 2px solid lightgray;
+    display: flex;
+    padding-top: 10px;
+    flex-wrap: wrap;
+    border-radius:3px; 
+}
+.ad img{
+    width: 70px;
+    height: 30px;
+}
+.ad p{
+    padding-top: 0px;
+    margin-top: 2px;
+    margin-left: 10px;
+    color: gray;
+}
+.g{
+    padding-top: 0px;
+    margin-top: -15px;
+    color: gray;
+}
+
+
+
+
+
+
+.hero{
+    width: 900px;
+    height: 700px;
+    position: relative;
+    margin: 30px auto;
+}
+.hero img{
+    width: 100%;
+    margin: 40px auto;
+    border-radius: 20px;
+    height: 400px;
+    background-size: cover;
+}
+.hero-content{
+    width:890px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 26%;
+    left: 20.5%;
+}
+.hero-content h1{
+    color: black;
+}
+.hero-content .btn{
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    font-weight: 700;
+    border-radius: 18px;
+    font-size: 14px;
+}
+
+
+.zomato{
+    width: 100%;
+    height: 350px;
+    position: relative;
+}
+.zomato img{
+    width: 100%;
+    height: max-content;
+    background-size: cover;
+}
+.zom-cont{
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    width: 700px;
+}
+.zom-cont p{
+    background-color: white;
+    padding: 20px 0px;
+    font-size: 18px;
+}
+.zom-cont h1{
+    font-size: 80px;
+    margin-bottom: 0px;
+    color: white;
+}
+.zom-cont h8{
+    width: 100%;
+    font-size: 35px;
+    font-weight: 450;
+    color: white;
+}
+
+
+
+.sub-card{
+    width: 480px;
+    border: 1px solid #cdced3;
+    margin: 60px auto;
+    border-radius: 10px;
+}
+.photo{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.content{
+    text-align: center;
+    padding-top: 20px;
+}
+.prof-pic{
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 16%;
+    left: 46.5%;
+}
+.content p{
+    color: gray;
+    margin-top: -10px;
+    font-size: 18px;
+}
